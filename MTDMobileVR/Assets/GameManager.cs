@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
@@ -6,9 +7,16 @@ public class GameManager : MonoBehaviour
     public bool inGame;
     [Header("Is Game Over:")]
     public bool gameOver;
-    [Header("Combo:")]
+
+    [Header("Combo:")] 
     public bool canCombo;
+    public float mana;
+    private float maxMana = 100f;
     public int comboCounter;
+
+    [Header("Points")] 
+    public int points;
+    public TextMeshPro pointText;
 
     //Private
     private Timer timerScript;
@@ -18,10 +26,12 @@ public class GameManager : MonoBehaviour
         timerScript = gameObject.GetComponent<Timer>();
         comboScript = gameObject.GetComponent<Combo>();
         inGame = true;
+        mana = 60;
     }
 
     void Update()
     {
+        pointText.text = points.ToString();
         if (inGame && comboCounter == 2)
         {
             canCombo = true;
@@ -30,6 +40,11 @@ public class GameManager : MonoBehaviour
         {
             canCombo = false;
         }
+
+        if (mana > maxMana)
+        {
+            mana = maxMana;
+        }
     }
 
     public void GameOver()
@@ -37,10 +52,5 @@ public class GameManager : MonoBehaviour
         gameOver = true;
         inGame = false;
         Debug.Log("Game is Over!");
-    }
-
-    public void GameStarted()
-    {
-
     }
 }

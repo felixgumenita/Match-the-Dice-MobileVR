@@ -24,6 +24,8 @@ public class SelectedDice : MonoBehaviour
         {
             if(selectedDice[1].name == selectedDice[2].name)
             {
+                gm.points += 35;
+                gm.mana += 5f;
                 time.timer += 1f;
                 gm.comboCounter += 1;
                 combo.DoubleCombo();

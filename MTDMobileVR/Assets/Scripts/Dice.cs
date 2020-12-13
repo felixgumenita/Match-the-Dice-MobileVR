@@ -34,7 +34,6 @@ public class Dice : MonoBehaviour
 
     private void Update()
     {
-        print(Timer);
         if (!isSelected && !pointerEnter)
         {
             gameObject.GetComponent<MeshRenderer>().material = normalMaterial;

@@ -10,6 +10,8 @@ public class Timer : MonoBehaviour
     public float timer;
     private int iTimer;
 
+    public bool stopTimer;
+
     //Private
     private GameManager gm;
 
@@ -23,15 +25,18 @@ public class Timer : MonoBehaviour
 
     void FixedUpdate()
     {
-        timer = timer - Time.deltaTime;
-        iTimer = Mathf.CeilToInt(timer);
-        timerTextObject.text = iTimer.ToString();
-
-        if(iTimer <= 0)
+        if (!stopTimer)
         {
-            timer = 0;
-            gm.GameOver();
-            return;
+            timer = timer - Time.deltaTime;
+            iTimer = Mathf.CeilToInt(timer);
+            timerTextObject.text = iTimer.ToString();
+
+            if(iTimer <= 0)
+            {
+                timer = 0;
+                gm.GameOver();
+                return;
+            }
         }
     }
 }
