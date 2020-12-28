@@ -21,12 +21,14 @@ public class GameManager : MonoBehaviour
     //Private
     private Timer timerScript;
     private Combo comboScript;
+    
     void Start()
     {
         timerScript = gameObject.GetComponent<Timer>();
         comboScript = gameObject.GetComponent<Combo>();
         inGame = true;
         mana = 60;
+        //SoundManager.Instace.PlayMusic();
     }
 
     void Update()

@@ -31,13 +31,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Dice.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Timer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SelectedDice.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Combo.cs" />
         <option value="$PROJECT_DIR$/Assets/Mana.cs" />
-        <option value="$PROJECT_DIR$/Assets/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SoundManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SelectedDice.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Dice.cs" />
       </list>
     </option>
   </component>
@@ -61,6 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607871310148</updated>
       <workItem from="1607871319187" duration="3783000" />
+      <workItem from="1609175788437" duration="1878000" />
     </task>
     <servers />
   </component>
@@ -77,8 +79,15 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="517" y="237" key="#Notifications" timestamp="1609175798544">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="517" y="237" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1609175798544" />
   </component>
 </project>

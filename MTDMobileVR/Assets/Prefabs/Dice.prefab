@@ -1150,6 +1150,7 @@ MonoBehaviour:
   normalMaterial: {fileID: 2100000, guid: fa0d55ad7b9b19e4982770a4134b5875, type: 2}
   isSelected: 0
   clickTimer: 0.5
+  selectDiceSFX: {fileID: 8300000, guid: 5ac03ecb1e5ae5b4e8125d4da98f0fc9, type: 3}
   Anims:
   - {fileID: 7400000, guid: ef4bc1db02361de459fa00abbfa0eacf, type: 2}
   - {fileID: 7400000, guid: 7b32946ca545eda448956091d9c79419, type: 2}

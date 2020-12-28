@@ -263,11 +263,12 @@
             </e>
           </e>
         </e>
-        <e p="Mana.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="Combo.cs" t="Include" />
           <e p="Dice.cs" t="Include" />
+          <e p="Mana.cs" t="Include" />
           <e p="SelectedDice.cs" t="Include" />
+          <e p="SoundManager.cs" t="Include" />
           <e p="Spawner.cs" t="Include" />
           <e p="Timer.cs" t="Include" />
         </e>

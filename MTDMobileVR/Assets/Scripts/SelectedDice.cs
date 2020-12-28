@@ -11,6 +11,9 @@ public class SelectedDice : MonoBehaviour
     private Timer time;
     private Dice[] dice;
 
+    [Header("SFX    ")]
+    [SerializeField] private AudioClip matchDiceSFX;
+
     public void Start()
     {
         dice = FindObjectsOfType<Dice>();
@@ -24,6 +27,7 @@ public class SelectedDice : MonoBehaviour
         {
             if(selectedDice[1].name == selectedDice[2].name)
             {
+                SoundManager.Instace.PlayOneShot(matchDiceSFX);
                 gm.points += 35;
                 gm.mana += 5f;
                 time.timer += 1f;

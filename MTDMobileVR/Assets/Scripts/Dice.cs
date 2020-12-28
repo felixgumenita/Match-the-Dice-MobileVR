@@ -11,6 +11,7 @@ public class Dice : MonoBehaviour
     public Material normalMaterial;
     public bool isSelected;
     public float clickTimer;
+    public AudioClip selectDiceSFX;
 
     [Header("Random Anims At Start:")]
     public AnimationClip[] Anims;
@@ -79,6 +80,10 @@ public class Dice : MonoBehaviour
 
     public void OnClick()
     {
+        if (!isSelected)
+        {
+            SoundManager.Instace.PlayOneShot(selectDiceSFX);
+        }
         gameObject.GetComponent<MeshRenderer>().material = selectedMaterial;
         if (!isSelected && !gm.gameOver)
         {
