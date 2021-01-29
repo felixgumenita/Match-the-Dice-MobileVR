@@ -28,20 +28,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Timer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Combo.cs" />
-        <option value="$PROJECT_DIR$/Assets/Mana.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SoundManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/GameManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SelectedDice.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Dice.cs" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectId" id="1lbgfLK06qz9841rBO7xeqNL1qU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -63,6 +49,8 @@
       <updated>1607871310148</updated>
       <workItem from="1607871319187" duration="3783000" />
       <workItem from="1609175788437" duration="1878000" />
+      <workItem from="1611781175156" duration="605000" />
+      <workItem from="1611919269910" duration="1378000" />
     </task>
     <servers />
   </component>

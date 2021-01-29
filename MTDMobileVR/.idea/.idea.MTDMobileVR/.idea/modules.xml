@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/.idea.MTDMobileVR/riderModule.iml" filepath="$PROJECT_DIR$/.idea/.idea.MTDMobileVR/riderModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/.idea.MTDMobileVR/.idea/riderModule.iml" filepath="$PROJECT_DIR$/.idea/.idea.MTDMobileVR/.idea/riderModule.iml" />
     </modules>
   </component>
 </project>
